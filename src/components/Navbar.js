@@ -11,11 +11,11 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            AlbDesign.Studio
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
+            <button onClick={() => scrollTo("#work")}>Proiecte</button>
+            <button onClick={() => scrollTo("#about")}>Despre noi</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>
         </div>

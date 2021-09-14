@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              Buna, suntem {data.name}{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
@@ -20,19 +20,19 @@ const Header = () => {
               <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "Building digital"}
+                  : "Proiecte design"}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : "interior, profesionale"}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : "la cel mai inalt nivel"}
               </h1>
             </div>
           </Fade>
