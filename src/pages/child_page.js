@@ -10,7 +10,7 @@ import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
-const IndexPage = () => (
+const child_page = () => (
   <Layout>
     <SEO title="Alb Design Studio" />
     <Header></Header>
@@ -22,4 +22,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default child_page
